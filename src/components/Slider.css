@@ -1,0 +1,117 @@
+*{
+  margin:  0;
+  box-sizing: border-box;
+  
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 8%;
+    border-radius: 10px;
+    padding: 3.5%;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.slider {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    height: 30%;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+ 
+
+  .slider img {
+    width: 650px;
+    height: 300px;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for image fade effect */
+  }
+
+  
+  
+  .main-box .btn {
+    
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%; /* Circular buttons */
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+  }
+  
+  .slider button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+  }
+  
+  .main-box .btn button:first-child {
+    left: 20px;
+  }
+  
+  .main-box .btn button:last-child {
+    right: 20px;
+  }
+  
+  .main-box .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+  
+  .main-box .indicator {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: black;
+  }
+
+  @media (max-width: 768px) {
+    .slider img{
+        width: 400px;
+        height: 150px;
+        object-fit: cover;
+        transition: opacity 0.5s ease-in-out;
+    }
+    
+
+    .main-box .btn button {
+        
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+        color: #fff; /* White text color */
+        border: none;
+        padding: 10px 15px;
+        border-radius: 50%; /* Circular buttons */
+        cursor: pointer;
+        font-size: 10px;
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+      }
+
+      .main-box .btn button:hover {
+        background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+        transform: none; /* Slightly enlarge the button on hover */
+      }
+  }

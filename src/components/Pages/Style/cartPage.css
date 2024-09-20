@@ -1,0 +1,52 @@
+button{
+    border: none;
+}
+
+.cart-page{
+    display: flex;
+    border: 1px solid rgb(231, 115, 115);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.detail{
+    
+    width: 50%;
+    margin-left: 3%;
+}
+
+#remove{
+    margin-left: 5%;
+    background-color: rgb(243, 45, 45);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.login-btn button{
+    background-color: rgb(87, 87, 236);
+    border-radius: 20px;
+    margin: 0.5%;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#payment-btn{
+    background-color: #13b921;
+    border-radius: 20px;
+    margin: 0.5%;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart-page img{
+    border-radius: 10px;
+}

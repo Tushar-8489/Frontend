@@ -1,0 +1,97 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register .inner-box{
+    width: 80%;
+    height: 70vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-box p .text{
+    text-decoration: none;
+    color: blue;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 5%;
+}
+
+.register label{
+    margin-top: 5%;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+form .phone{
+    margin-right: 120px;
+}
+
+
+.register input{
+    border-radius: 30px;
+    border: none;
+    width: 70%;
+    height: 50px;
+}
+
+.reg-btn{
+    margin: 10%;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(35, 35, 192);
+    color: white;
+    height: 50px;
+}
+
+@media (min-width:768px) {
+    .register{
+        height: 1220px;
+    }
+
+    .register .inner-box{
+        height: 1050px;
+    }
+    .register label{
+        margin-right: 400px;
+    }
+    form .phone{
+        margin-right: 360px;
+    }
+
+    
+}
+
+@media (max-width:768px) {
+    .register label{
+        font-size: 18px;
+    }
+
+    .register input{
+        width: 210px;
+        height: 35px;
+        border-radius: 20px;
+    }
+
+    .reg-btn{
+        width: 100px;
+    }
+    
+}
+

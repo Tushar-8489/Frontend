@@ -1,0 +1,20 @@
+ .btn-class button {
+    margin-left: 5px;
+    background-color : rgb(221, 242, 66);
+     border-radius:10px;
+     width:130px;
+      height:35px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      font-size: small;
+      border: none;
+}
+
+@media (max-width:768px) {
+    .btn-class button{
+        width:100px;
+        height:30px;
+        font-size: smaller;
+        margin-top: 5px;
+        
+    }
+}

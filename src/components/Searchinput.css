@@ -1,0 +1,28 @@
+.search-input-container {
+    margin-left: 25%;
+    margin-top: 3%;
+    
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 40%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .search-input-container button{
+   background-color: rgb(245, 219, 245);
+   border: none;
+   height: 40px;
+   border-radius: 10%;
+  }
+  
